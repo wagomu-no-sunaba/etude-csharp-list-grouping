@@ -31,8 +31,8 @@ foreach (var group in groupedProducts)
 
 public class Product
 {
-    public required int Id { get; set; }
-    public required string Category { get; set; }
-    public required string Brand { get; set; }
-    public required decimal Price { get; set; }
+    public required int Id { get; init; }
+    public required string Category { get; init; }
+    public required string Brand { get; init; }
+    public required decimal Price { get; init; }
 }
